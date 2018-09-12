@@ -6,7 +6,12 @@
 //  Copyright © 2018年 20161104569. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-print("Hello, World!")
+var str = "Hello, playground"
 
+var sum=0;
+for  i in 1...100{
+    sum=sum+i;
+}
+print(sum)
